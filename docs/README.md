@@ -25,7 +25,6 @@
   - 추천을 못하는 경우는 발생하지 않으니 고려하지 않아도 된다.
 - 예외 처리
   - [x] 각 코치가 못 먹는 메뉴의 개수가 최소 0개, 최대 2개를 충족하지 않는 경우
-  - [ ] 
 
 ```
 우동,스시
@@ -88,7 +87,7 @@ val category: String = categories.get(Randoms.pickNumberInRange(1, 5))
 
 #### 1) 메뉴 추천 결과를 출력 하기
 
-- [ ] 메뉴 추천 결과를 출력한다.
+- [x] 메뉴 추천 결과를 출력한다.
 
 ```
 메뉴 추천 결과입니다.
@@ -102,15 +101,15 @@ val category: String = categories.get(Randoms.pickNumberInRange(1, 5))
 ```
 
 ## 프로그래밍 요구 사항
-- [ ] 사용자가 잘못된 값을 입력할 경우 `IllegalArgumentException`를 발생시키고, "[ERROR]"로 시작하는 에러 메시지를 출력 후 그 부분부터 입력을 다시 받는다.
-  - [ ] 예외 상황 시 출력하는 에러 문구는 모두 "[ERROR]"로 시작해야 한다.
-  - [ ] `Exception`이 아닌 `IllegalArgumentException`, `IllegalStateException` 등과 같은 명확한 유형을 처리한다.
+- [x] 사용자가 잘못된 값을 입력할 경우 `IllegalArgumentException`를 발생시키고, "[ERROR]"로 시작하는 에러 메시지를 출력 후 그 부분부터 입력을 다시 받는다.
+  - [x] 예외 상황 시 출력하는 에러 문구는 모두 "[ERROR]"로 시작해야 한다.
+  - [x] `Exception`이 아닌 `IllegalArgumentException`, `IllegalStateException` 등과 같은 명확한 유형을 처리한다.
 
 ```
 [ERROR] 코치는 최소 2명 이상 입력해야 합니다.
 ```
 
-- [ ] 빌드 테스트 실행 성공을 확인할 것
+- [x] 빌드 테스트 실행 성공을 확인할 것
   - 터미널에서 Mac 또는 Linux 사용자의 경우 `./gradlew clean test` 명령을 실행
 - [ ] indent(인덴트, 들여쓰기) depth는 2까지만 허용한다.
   - 힌트: indent(인덴트, 들여쓰기) depth를 줄이는 좋은 방법은 함수(또는 메서드)를 분리하면 된다.
