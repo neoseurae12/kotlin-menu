@@ -30,6 +30,8 @@ object InputView {
       println(ENTER_INEDIBLE_MENUS.format(coach.name))
 
       coach.inedibleMenus = getInedibleMenus()
+
+      println()
     }
   }
 
