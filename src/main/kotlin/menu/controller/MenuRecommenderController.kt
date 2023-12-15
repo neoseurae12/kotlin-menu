@@ -7,6 +7,8 @@ class MenuRecommenderController {
   fun startMenuRecommender() {
     val coachNames = InputView.readCoachNames()
     val coachs: List<Coach> = getCoachs(coachNames)
+    InputView.readInedibleMenus(coachs)
+
   }
 
   fun getCoachs(coachNames: List<String>): List<Coach> {
