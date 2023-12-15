@@ -111,10 +111,10 @@ val category: String = categories.get(Randoms.pickNumberInRange(1, 5))
 
 - [x] 빌드 테스트 실행 성공을 확인할 것
   - 터미널에서 Mac 또는 Linux 사용자의 경우 `./gradlew clean test` 명령을 실행
-- [ ] indent(인덴트, 들여쓰기) depth는 2까지만 허용한다.
+- [x] indent(인덴트, 들여쓰기) depth는 2까지만 허용한다.
   - 힌트: indent(인덴트, 들여쓰기) depth를 줄이는 좋은 방법은 함수(또는 메서드)를 분리하면 된다.
-- [ ] 함수(또는 메서드)의 길이가 15라인을 넘어가지 않도록 구현한다.
-- [ ] else를 지양한다.
+- [x] 함수(또는 메서드)의 길이가 15라인을 넘어가지 않도록 구현한다.
+- [x] else를 지양한다.
   - 때로는 if/else, when문을 사용하는 것이 더 깔끔해 보일 수 있다.
 
 ## 실행 결과 예시
